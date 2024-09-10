@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+.box {
+  width: 100%;
+  background-color: rgb(206, 204, 197);
+  margin-top: 300px;
+  padding: 50px 0;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+
+
+}
+
+.box2 {
+  border-left: 1px solid black;
+  background-color: rgb(206, 204, 197);
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  left: 0;
+  transition: all 3s ease;
+}
+
+p {
+  background-color: transparent;
+  text-align: center;
+
+}
+
+.box:hover .box2 {
+  transform: translateX(100%);
+  transition-timing-function: ease-in-out;
+
+}
